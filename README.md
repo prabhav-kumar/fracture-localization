@@ -14,16 +14,16 @@ The dataset contains X-ray images of bone fractures with labeled bounding boxes 
 
 **Structure:**
 
-Fracatlas/
-├── images/
-│ ├── train/
-│ ├── val/
-│ └── test/
-├── labels/
-│ ├── train/
-│ ├── val/
-│ └── test/
-└── fracatlas.yaml
+-Fracatlas/
+-├── images/
+-│ ├── train/
+-│ ├── val/
+-│ └── test/
+-├── labels/
+-│ ├── train/
+-│ ├── val/
+-│ └── test/
+-└── fracatlas.yaml
 
 
 **Class:**  
@@ -108,8 +108,11 @@ The trained model is able to accurately draw bounding boxes around fractures in 
    ```bash
    yolo task=detect mode=predict model=best.pt source=/path/to/image_or_folder
    ```
+
+---
+
 ## Want the Trained Model?
 
-To get the trained YOLOv8 fracture detection model (.pt file), feel free to email me at:
-📧 k.prabhav2005@gmail.com
-I’ll be happy to share it with you.
+- To get the trained YOLOv8 fracture detection model (.pt file), feel free to email me at:
+- 📧 k.prabhav2005@gmail.com
+- I’ll be happy to share it with you.
